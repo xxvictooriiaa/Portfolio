@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(247, 189, 198);
+
+h1{
+color: aliceblue;
+font-family: cursive;
+    }
+}
+p{
+    font-family: cursive;
+    color: white;
+}
+h2{
+     font-family: cursive;
+    color: rgb(248, 224, 230);
+}
+ol{
+    color: aliceblue;
+    font-family: cursive;
+}
+ul{
+    color: rgb(241, 241, 241);
+    font-family: cursive;
+}
+
+a{
+    color: blanchedalmond;
+    font-family: cursive;
+}
+a:hover{
+    color: rgb(230, 113, 181);
+}
