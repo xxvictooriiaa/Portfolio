@@ -1,0 +1,17 @@
+
+body {
+      background-color: pink; /* (0.5) cor de fundo */
+      color: white;
+      display: flex; /* (0.5) centralização */
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      font-family: cursive;
+    }
+    #resultado {
+      margin-top: 20px;
+      font-weight: bold;
+      padding: 10px;
+      border-radius: 5px;
+    }

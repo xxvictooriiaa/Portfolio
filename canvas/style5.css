@@ -1,0 +1,18 @@
+body{
+    background-color: pink;
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+canvas{
+    border: 2px solid rgb(255, 113, 172);
+    border-radius: 4px;
+}

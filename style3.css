@@ -1,0 +1,155 @@
+body {
+  background-color: #d3d3d3;
+  margin: 0;
+    font-family: Arial,
+}
+.Logo01{
+   font-size: large;
+}
+.texto001{
+    color: purple;
+}
+
+header {
+  background-color: #fee4c3;
+  text-align: center;
+  padding: 50px;
+  position: relative;
+  border: 3px solid purple;   /* borda roxa */
+}
+header h1 {
+  color: darkgreen;
+  font-size: 36px;
+  margin: 0;
+}
+.logo-esq { 
+    position: absolute;
+     left: 20px;
+      top: 20px;
+       width: 100px; 
+    } 
+    .logo-dir {
+         position: absolute;
+          right: 20px; 
+          top: 20px;
+           width: 100px;
+}
+
+nav {
+  background-color: lightskyblue;
+  text-align: center;
+  padding: 10px;
+}
+nav a {
+  margin: 0 20px;
+  text-decoration: none;
+  color: darkred;
+  font-weight: bold;
+}
+
+
+.introducao {
+  margin: 30px;
+}
+.introducao h2 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+.introducao p {
+  font-size: 20px;
+  text-align: justify;
+  margin: 15px 0;
+}
+
+
+.livros {
+  text-align: center;
+  margin: 40px 0;
+}
+.livros h2 {
+  font-size: 24px;
+}
+.galeria img {
+  width: 200px;
+  height: 300px;       
+  margin: 20px;
+ 
+}
+
+
+
+.videos {
+  text-align: center;
+  margin: 40px 0;
+}
+.midia {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+
+.contatos {
+  text-align: center;
+  margin: 40px 0;
+}
+.contatos table {
+  margin: auto;
+  border: 5px dashed rgb(255, 24, 24);
+  border-collapse: collapse;
+}
+.contatos th, .contatos td {
+  border: 1px solid black;
+  padding: 10px 20px;
+}
+
+
+.links {
+  background-color: yellow;
+  margin: 30px auto;
+  padding: 10px 20px;
+  width: fit-content;        
+  font-size: 14px;
+  text-align: left;   
+}       
+.links ul {
+  list-style: none;   /* tira bolinhas */
+  padding: 0;
+  margin: 0;
+}
+.links li {
+  margin: 8px 0;
+}
+.links a {
+  color: red;
+  font-weight: bold;
+}
+
+
+
+
+footer {
+  background-color: #fee4c3;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  font-family: "Comic Sans MS", cursive;
+  font-size: 15pt;
+}
+.rodape-esq {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  width: 100px;
+}
+.rodape-dir {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  width: 70px;
+}
+#vermelho {
+  color: red;
+}

@@ -1,0 +1,35 @@
+#Titulo{
+    color: rgb(70, 170, 170);
+    font-family: cursive;
+}
+body{
+    background-color: rgb(222, 245, 245);
+}
+p{
+    font-family: cursive;
+    color: rgb(0, 94, 70);
+
+}
+h3{
+    text-align: center;
+    font-size: 24px;
+    color: rgb(70, 170, 170);
+    font-family: cursive;
+}
+#Links{
+    text-align: center;
+    font-size: 20px;
+    font-family: cursive;
+    color: rgb(85, 41, 80);
+
+}
+a{
+    text-decoration: none;
+    color: rgb(147, 44, 114);
+    font-family: cursive;
+}
+a:hover{
+    color: rgb(70, 170, 170);
+    font-weight: bold;
+    font-family: cursive;
+}
