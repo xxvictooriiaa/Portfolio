@@ -1,0 +1,24 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "<h1> Portfólio </h1>",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xxvictooriiaa/Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xxvictooriiaa/Portfolio/issues"
+  },
+  "homepage": "https://github.com/xxvictooriiaa/Portfolio#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "express": "^5.1.0"
+  }
+}
