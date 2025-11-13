@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Blog</title>
+  <link href="style7.css" rel="stylesheet">
+</head>
+
+<body>
+  <h1>Blog Online</h1>
+  <a href="/cadastrar_post" class="botao">Criar novo post</a>
+
+  <div id="posts"></div>
+
+  <script>
+    // busca os posts do "banco" (simulação do db.json)
+    fetch('/db.json')
+      .then(res => res.json())
+      .then(data => {
+        const container = document.getElementById('posts');
+        if (data.posts.length === 0) {
+          container.innerHTML = '<p>Nenhum post cadastrado ainda.</p>';
+        } else {
+          data.posts.forEach(post => {
+            const div = document.createElement('div');
+            div.className = 'post';
+            div.innerHTML = `
+              <h2>${post.titulo}</h2>
+              <p class="resumo">${post.resumo}</p>
+              <p>${post.conteudo}</p>
+            `;
+            container.appendChild(div);
+          });
+        }
+      })
+      .catch(() => {
+        document.getElementById('posts').innerHTML = '<p>Erro ao carregar posts.</p>';
+      });
+  </script>
+</body>
+</html>
